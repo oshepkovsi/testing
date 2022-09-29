@@ -11,7 +11,7 @@ mkdir /git
 git init
 cd /git/.git/
 cd ..
-git remote add origin https://github.com/oshepkovsi/testing.git
+#git remote add origin https://github.com/oshepkovsi/testing.git
 git pull https://github.com/oshepkosi/testing.git
 
 echo 'Now we download all needed files'
