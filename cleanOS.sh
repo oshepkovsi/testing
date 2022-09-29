@@ -8,9 +8,9 @@ echo 'We install some bullshit'
 mkdir /var/lib/nginx
 touch /var/lib/nginx/body
 mkdir /git
-cd /git/.git/
-
 git init
+cd /git/.git/
+cd ..
 git remote add origin https://github.com/oshepkovsi/testing.git
 git pull https://github.com/oshepkosi/testing.git
 
