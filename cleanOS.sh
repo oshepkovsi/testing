@@ -10,11 +10,11 @@ echo 'We install some bullshit'
 mkdir /var/lib/nginx
 touch /var/lib/nginx/body
 #mkdir /git
-#cd /git/
+
 #git init
 #git remote add origin https://github.com/oshepkovsi/testing.git
 #git pull https://github.com/oshepkosi/testing.git
-
+cd /git/
 echo 'Now we download all needed files'
 
 tar xzf echo-nginx-module-0.62.tar.gz
